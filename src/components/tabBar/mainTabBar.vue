@@ -1,5 +1,5 @@
 <template>
-    <div id="tabBar">
+    <div id="tabBar" >
        <slot></slot>
     </div>
 </template>
@@ -10,7 +10,7 @@
         name: "mainTabBar",
         components:{
             tabItem
-        }
+        },
     }
 </script>
 
