@@ -1,6 +1,6 @@
 <template>
     <div>首页
-       <h2>{{$store.state.componentName}}</h2>
+       <!--<h2>{{this.$store.state.componentName}}</h2>-->
     </div>
 </template>
 
