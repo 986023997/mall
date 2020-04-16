@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.user(Vuex)
+Vue.use(Vuex)
 const store=new Vuex.Store({
     state:{
         componentName:'朱林'
